@@ -1,0 +1,9 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+      //"no-console": "error",
+      "no-multiple-empty-lines": [ "error", { "max": 1, "maxEOF": 1 }]
+    },
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"]
+  }
